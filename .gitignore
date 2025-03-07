@@ -21,3 +21,6 @@ hunt_szymanski_diff-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Project related
+.lexical
