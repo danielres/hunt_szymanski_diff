@@ -21,9 +21,24 @@ defmodule HuntSzymanskiDiff.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
+      {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+    ]
+  end
+
+  defp description() do
+    """
+    A port of the Hunt-Szymanski diff algorithm to Elixir, with a focus on performance and memory efficiency.
+    """
+  end
+
+  defp package() do
+    [
+      name: "hunt_szymanski_diff",
+      files: ["lib", "mix.exs", "README.md", "LICENSE"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/danielres/hunt_szymanski_diff"}
     ]
   end
 end
