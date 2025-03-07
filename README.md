@@ -4,6 +4,9 @@ A port of the [Hunt-Szymanski](https://en.wikipedia.org/wiki/Hunt%E2%80%93Szyman
 
 This library is particularly suited for longer texts such as wiki pages or blog articles.
 
+- [Package on Hex.pm](https://hex.pm/packages/hunt_szymanski_diff)
+- [Documentation](https://hexdocs.pm/hunt_szymanski_diff)
+
 ## Credits
 
 This library was generated with assistance from ChatGPT.\
